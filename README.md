@@ -7,7 +7,7 @@
      width="100%" />
      
      
-# **DATA-X:** <br>  m410 - SHALLOW NEURAL NETWORKS; AN INTRODUCTION TO TENSORFLOW V.2
+# **DATA-X:** <br>  m420 - BREAD &amp; BUTTER DEEP LEARNING - REGRESSION AND CLASSIFICATION USING TENSORFLOW v2 AND LUDWIG
 
 <br>
 
@@ -16,17 +16,17 @@
 
 
 
-**Author List (in no particular order):** [Elias Castro Hernandez](https://www.linkedin.com/in/ehcastroh/), [Rajarathnam Balakrishnan](https://www.linkedin.com/in/rajarathnam-balakrishnan-7b447b135/), [Ikhlaq Sidhu](https://ikhlaq-sidhu.com/), [Debbie Yuen](http://www.debbiecyuen.me/), and [Alexander Fred-Ojala](https://www.linkedin.com/in/alexanderfo/) 
+**Author List (in no particular order):** [Elias Castro Hernandez](https://www.linkedin.com/in/ehcastroh/), [Ikhlaq Sidhu](https://ikhlaq-sidhu.com/), and [Debbie Yuen](http://www.debbiecyuen.me/). 
 
-**About (TL/DR):** Tensorflow (TF) is an open-source library used for dataflow, differentiable programming, symbolic math ,and machine learning applications such as deep learning neural networks. TF's flexible architecture allows for easy deployment across varied processing platforms. 
+**About (TL/DR):** Tensorflow (TF) is an open-source library used for dataflow, differentiable programming, symbolic math, and machine learning applications such as deep learning neural networks. [Ludwig](https://ludwig-ai.github.io/ludwig-docs/index.html) is a toolbox built atop TF that enables users the ability to train and test deep learning models without the need to write code.
 
-**Learning Goal(s):** This notebook covers advanced topics in machine learning. However, it does not require any prior knowledge in machine learning. The goal of this notebook is to teach a user how to deploy a TF model, as well as to provide the user guidance on how to tackle the more nuanced topics. 
+**Learning Goal(s):** This notebook covers advanced topics in machine learning. However, it does not require any prior knowledge in machine learning. The goal of this notebook is to teach a user how to deploy deep learning regression and classification models, using structured data. This is task is so common to the machine learning, that it is pretty much the bread and butter of ML engineers. 
 
-**Associated Materials:** To ease the learning curve, we encourage the user of this notebook to view the resources section on the main JupyterLab, and/or review the [Data-X Fundamentals](https://github.com/scetx/datax/tree/master/01-data-x-fundamentals) repo.
+**Associated Materials:** To ease the learning curve, we encourage the user of this notebook to visit the [Data-X](https://datax.berkeley.edu/) site for resources on fundamentals of machine learning, and an introductoin to TensorFlow v2.
 
-**Keywords (Tags):** tensorflow, tensor-flow, tensorflow-tutorial, deep-learning, deep-learning-with-python, neural-networks, data-x, uc-berkeley-engineering 
+**Keywords (Tags):** tensorflow, tensor-flow, tensorflow-tutorial, deep-learning, deep-learning-with-python, neural-networks, Ludwig, deep-learning-toolbox, data-x, uc-berkeley-engineering 
 
-**Prerequisite Knowledge:** (1) Python, (2) NumPy, (3) Pandas, (4) Linear Algebra, (5) Bash 
+**Prerequisite Knowledge:** (1) Python, (2) Pandas, (3) Matplotlib, (4) TensorFlow v2 
 
 **Target User:** Data scientists, applied machine learning engineers, and developers
 
@@ -43,34 +43,10 @@
      
 ### **CONTENT**   
 
-  - m410_shallow_neural_networks_introduction_to_tensorflow -- Overview of TensorFlow syntax, operations, and execution.
+  - m420_dl_bread_and_butter_regression_classification_TF_LUDWIG -- Regression and classification with TFv2 and Ludwig.
   - assets/homeworks/   -- Contains several exercises to help you master the material.
 
-#### **I. TENSORS AND OPERATIONS**
-
-<img src="assets/content/images/tF_update-03.png"
-     alt="Simple Architecture"
-     align="center" 
-     style="align:center" 
-     width="40%"/>
-     
-    1) PART 1.1: TENSORFLOW SETUP
-    2) PART 1.2: TENSORBOARD SETUP
-    3) PART 1.3: TENSORFLOW TENSORS
-    4) PART 1.4: TENSORFLOW OPERATIONS
-    5) PART 1.5 (OPTIONAL): EAGER EXECUTION
-    
-#### **II. TENSORFLOW GRAPHS AND EXECUTIONS**
-
-<img src="assets/content/images/tF_update-01.png"
-     alt="Simple Architecture"
-     align="center" 
-     style="align:center" 
-     width="40%"/>
-     
-    1) PART 2.1: TENSORFLOW COMPUTATION FUNCTION -- \@tf.function
-
-#### **III. TENSORFLOW LINEAR REGRESSION (OPTIONAL)**
+#### **I. LINEAR REGRESSION**
 
 <img src="assets/content/images/tF_update-05.png"
      alt="Simple Architecture"
@@ -80,11 +56,23 @@
      
     1) PART 3.1: PROBLEM DEFINITION AND SETUP
     2) PART 3.2: MODEL
-    3) PART 3.3: GENERALIZATION AND PREDICTIONS    
+    3) PART 3.3: GENERALIZATION AND PREDICTIONS  
     
-#### **IV. WRAP UP AND NEXT STEPS**
+#### **II. IMAGE CLASSIFICATION**
 
-You've completed the introduction to TensorFlow V.2, and once can assume that you are ready to get things done with your new knowledge. Visit the [**Data-X website**](https://datax.berkeley.edu/) to learn how to use Tensorflow to tackle various deep learning problems, or use the following links to some topics of interest:
+<img src="assets/content/images/tF_update-01.png"
+     alt="Simple Architecture"
+     align="center" 
+     style="align:center" 
+     width="40%"/>
+     
+    1) PART 2.1: TO DO
+
+  
+    
+#### **III. WRAP UP AND NEXT STEPS**
+
+You've completed the introduction to TensorFlow V.2, and one can assume that you are ready to get things done with your new knowledge. Visit the [**Data-X website**](https://datax.berkeley.edu/) to learn how to use TensorFlow to tackle various deep learning problems, or use the following links to some topics of interest:
 
 > [TODO (m--): url needed]() TODO TODO TODO.
 
